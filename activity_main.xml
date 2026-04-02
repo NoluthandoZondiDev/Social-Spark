@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFF0F5">
+
+    <!-- 🌸 App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✨ SocialSpark 💖"
+        android:textSize="32sp"
+        android:textColor="#E91E8C"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 💕 Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What time of day is it girlie? 🌷"
+        android:textSize="16sp"
+        android:textColor="#C2185B"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 🕐 Hint for the user -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try: morning, mid-morning, afternoon,&#10;afternoon snack time, dinner, night"
+        android:textSize="12sp"
+        android:textColor="#F48FB1"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- 📝 Time of Day Input -->
+    <EditText
+        android:id="@+id/editTextTimeOfDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type the time of day here 💭"
+        android:textColorHint="#F48FB1"
+        android:textColor="#880E4F"
+        android:backgroundTint="#F48FB1"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 💖 Get Suggestion Button -->
+    <Button
+        android:id="@+id/buttonGetSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get My Spark 💕"
+        android:backgroundTint="#E91E8C"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- 🔄 Reset Button -->
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset 🌸"
+        android:backgroundTint="#F48FB1"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- ✨ Suggestion Output -->
+    <TextView
+        android:id="@+id/textViewSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="#880E4F"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#FCE4EC"
+        android:textStyle="italic"/>
+
+</LinearLayout>
